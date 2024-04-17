@@ -57,11 +57,7 @@ const Card = () => {
   </div>
 
   <div className="cardInside page3" ref={pageRef.current.third}>
-     <div className="inside-text">
-  <h3 className="happy">HAPPY</h3>
-  <h2 className="bday">BIRTHDAY</h2> 
-  <h3 className="toyou">to you!</h3>  
-  </div>
+   
     <div className="wishes">
 
     <p>Happy birthday</p>
