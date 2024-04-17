@@ -43,13 +43,13 @@ const Card = () => {
      <div className="inside-text">
   <h3 className="happy">HAPPY</h3>
   <h2 className="bday">BIRTHDAY</h2> 
-  <h3 className="toyou">to you!</h3>  
+  <h3 className="toyou">to Panda!</h3>  
   </div>
     <div className="wishes">
     <p>Dear Panda,</p>
     <p>Main bhoola nahi hoon Mujhee yaad hai..
 Ki birthday tumhara aaj hai.
-
+        
 Wishes ki tumhare paas bheedh lagi hogi...
 Toh socha hatke kuch kahu toh shayad Dhyaan padhe.
 </p>
@@ -65,7 +65,38 @@ Toh socha hatke kuch kahu toh shayad Dhyaan padhe.
    
     <div className="wishes">
 
-    <p>Happy birthday</p>
+    <p>Stories aur status lagaana main zaroori 
+Nahi samajhta main samajhta hoon bas 
+Asal mein yeh din tumhe khaas lage.
+
+Yeh chehre pe jo chamak aaj ke din hogi na 
+Yahi glow poore saal rehna chahiye.
+
+Tumhari iss duniya mein aane ki 
+Khushi bohot zyaada hai
+Toh ek din ki treat se kya hoga 
+Tumhe party har shaam deni chahiye.
+
+Yeh aaj jo andar se excitement aur bahar se 
+woh smile nazar aa rahi hai na.
+
+iss andaaz ko tum khud mein 
+har dum ke liye freeze karlo.
+
+Bas aaj ke din hi kyu tumhe ehsaas khaas ho
+Dua hai meri tumhe har din Celebration sa feel ho.
+
+Bohot socha aisa koi tohfa hai
+Jo hamesha tumhare sath rahe.
+
+Ek ke baad ek sab nikalte rahe 
+Aur aakhir mein bas shabdh hi bache.
+
+Aur unhi shabdon ko jodh kar kahu toh meri taraf se 
+Tumhare friend Aniket ki taraf se 
+Happy birthday to you.......
+
+</p>
     <p className="name">xxx</p>
     </div>
     <TiArrowForward className='icon'  onClick={()=>setPage2(prev=>!prev)}/>
