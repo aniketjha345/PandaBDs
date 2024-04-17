@@ -47,10 +47,11 @@ body {
     z-index: 2000;
     transform: rotateY(-150deg); 
 .inside-text{
+    display: none;
     transform: rotatey(180deg);
 }
  .wishes{
-    /* display: none; */
+     display: none; 
     transform: rotatey(180deg);
 
  }
