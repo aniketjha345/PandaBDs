@@ -63,7 +63,7 @@ const Card = () => {
   <h3 className="toyou">to you!</h3>  
   </div>
     <div className="wishes">
-    <p>Dear Friend,</p>
+
     <p>Happy birthday</p>
     <p className="name">xxx</p>
     </div>
