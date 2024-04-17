@@ -56,7 +56,7 @@ const Text = () => {
   <div class="after"></div>
 </div>
 {/* <h1>Feliz Cumpleaños Pratik!</h1> */}
-<h2>Happy Birthday Bro!</h2>
+<h2>Happy Birthday Akshara!</h2>
 <span className='flower'>🎉</span>
 
 
