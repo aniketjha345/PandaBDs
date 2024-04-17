@@ -1,0 +1,235 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width: 100vw;
+    background-color: #00bbf9;
+    overflow: hidden;
+  }
+  
+  .icon{
+  position: absolute;
+
+
+  border-radius: 50%;
+  right: 2px;
+  font-size: 35px;
+  color: #f15bb5;
+  bottom: 5px;
+  text-align: center;
+  }
+  .icon1{
+    
+  }
+  .birthdayCard {
+    position: relative;
+    width: 250px;
+    height:350px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(2500px);
+    transition: 4s;
+  }
+  
+  .birthdayCard:hover {
+    transform: perspective(2500px) rotate(5deg);
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 100px rgba(0,0,0,0.3);
+  }
+  
+  .page1 {
+    z-index: 3000;
+    transform: rotateY(-160deg); 
+
+  }
+  
+  .page2{
+    z-index: 2000;
+    transform: rotateY(-150deg); 
+.inside-text{
+    transform: rotatey(180deg);
+}
+ .wishes{
+    /* display: none; */
+    transform: rotatey(180deg);
+
+ }
+  }
+  .page3{
+    z-index: 1000;
+    .icon{
+        /* left: 0; */
+        transform: rotateY(180deg);
+    }
+  }
+  
+  @media screen and (max-width: 750px){
+    .page1{
+        z-index: 3000;
+    transition: .4s all ease;
+
+        transform: rotateY(-350deg); 
+      }
+      .page2{
+        z-index: 2000;
+        transform: rotateY(-350deg); 
+    
+     .wishes{
+        display: none;
+     }
+    
+  }
+}
+  .birthdayCard:hover .front-text {
+    display: none;
+  }
+  
+  /* .birthdayCard:hover .wrap-deco {
+    display: none;
+  }
+  
+  .birthdayCard:hover .wrap-decoTwo {
+    display: none;
+  }
+   */
+  .birthdayCard:hover .plate {
+    display: none;
+  }
+  
+  .cardFront {
+    position: relative;
+    background-color: #fff;
+    background-color: #3863c7;
+    width: 250px;
+    height:350px;
+    overflow: hidden;
+    transform-origin: left;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.13), 30px 0 50px rgba(0,0,0,0.1);
+    transition: .4s all ease;
+    z-index: 3000;
+  }
+  
+  .happy, .toyou {
+    position: relative;
+    font-family: didot;
+    text-align: center;
+    backface-visibility: hidden;
+    font-size: 30px; 
+  }
+  
+  .happy {
+    top:198px;
+  }
+  
+  .toyou {
+    top:123px;
+  }
+  
+  .bday {
+    position: relative;
+    font-family: arial;
+    font-size: 35px;
+    text-align: center;
+    top:163px;
+  }
+  
+  .wrap-deco {
+    position: absolute;
+    top:-230px;
+    left:-200px;
+  }
+  
+  .decorations {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #333;
+    border-radius: 50%;
+  }
+  
+  .decorations:before, .decorations:after, .decorationsTwo:before, .decorationsTwo:after, .decorationsThree:before, .decorationsThree:after {
+    content:"";
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width:0;
+    height:0;
+  }
+  
+  .decorations:before {
+    border-top: 40px solid #f15bb5;
+    top:297px;
+    left:210px;
+    transform: rotate(-5deg);
+  }
+  
+  .decorations:after{
+    border-top: 40px solid #f4d35e;
+    top:288px;
+    left:260px;
+    transform: rotate(-17deg);
+  }
+  
+  .decorationsTwo:before {
+    border-top: 40px solid #00f5d4;
+    top:268px;
+    left:315px;
+    transform: rotate(-30deg);
+  }
+  
+  .decorationsTwo:after, .decorationsThree:after {
+    border-top: 40px solid #9b5de5;
+    top:238px;
+    left:355px;
+    transform: rotate(-40deg);
+  }
+  
+  .wrap-decoTwo {
+    transform: scaleX(-1);
+    position: absolute;
+    top:-230px;
+    left:445px; 
+  }
+  
+  .decorationsThree:before {
+    border-top: 40px solid #00bbf9;
+    top:268px;
+    left:315px;
+    transform: rotate(-30deg);
+  }
+
+  
+  .cardInside {
+    position: absolute;
+    background-color: #fff;
+    width: 250px;
+    height:350px;
+    /* z-index:-1; */
+    left:0;
+    top:0;
+    transform-origin: left;
+    transition: 4s all ;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2);
+  }
+  
+  .inside-text {
+    position: relative;
+    top:-160px;
+    transform: scale(0.7);
+  }
+  
+  .wishes {
+    position: relative;
+    top:-100px;
+    margin: 25px;
+  }
+  
+  p {
+    font-family: 'Brush Script MT', cursive;
+    color: #333;
+  }
+  
+  .name {
+    margin-left:150px;
+  }
+  
