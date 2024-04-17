@@ -21,7 +21,7 @@ const Card = () => {
   {/* <div className="front-text">
   <h3 className="happy">HAPPY</h3>
   <h2 className="bday">BIRTHDAY</h2> 
-  <h3 className="toyou">to you!</h3>  
+  <h3 className="toyou">Akshara!</h3>  
   </div> */}
   <div className="wrap-deco">
 <div className="decorations"></div>
@@ -46,8 +46,13 @@ const Card = () => {
   <h3 className="toyou">to you!</h3>  
   </div>
     <div className="wishes">
-    <p>Dear Friend,</p>
-    <p>Happy birthday!! I hope your day is filled with lots of love and laughter! May all of your birthday wishes come true.</p>
+    <p>Dear Panda,</p>
+    <p>Main bhoola nahi hoon Mujhee yaad hai..
+Ki birthday tumhara aaj hai.
+
+Wishes ki tumhare paas bheedh lagi hogi...
+Toh socha hatke kuch kahu toh shayad Dhyaan padhe.
+</p>
     <p className="name">xxx</p>
     </div>
     
