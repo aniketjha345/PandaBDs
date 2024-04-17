@@ -53,12 +53,7 @@ Ki birthday tumhara aaj hai.
 Wishes ki tumhare paas bheedh lagi hogi...
 Toh socha hatke kuch kahu toh shayad Dhyaan padhe.
 
-Stories aur status lagaana main zaroori 
-Nahi samajhta main samajhta hoon bas 
-Asal mein yeh din tumhe khaas lage.
 
-Yeh chehre pe jo chamak aaj ke din hogi na 
-Yahi glow poore saal rehna chahiye.
 
 </p>
     <p className="name">xxx</p>
@@ -74,6 +69,12 @@ Yahi glow poore saal rehna chahiye.
     <div className="wishes">
 
     <p>
+Stories aur status lagaana main zaroori 
+Nahi samajhta main samajhta hoon bas 
+Asal mein yeh din tumhe khaas lage.
+
+Yeh chehre pe jo chamak aaj ke din hogi na 
+Yahi glow poore saal rehna chahiye.
 Tumhari iss duniya mein aane ki 
 Khushi bohot zyaada hai
 Toh ek din ki treat se kya hoga 
